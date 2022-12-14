@@ -10,7 +10,7 @@ succeptable to errors in formatting. I know for a fact that capitalization is no
 consistant, so I highly reccomend something like `.toLower()` to make sure that searches
 are proper. 
 
-##JSON Formatting
+## JSON Formatting
 ```json
 {
     "title": "title here",
@@ -115,8 +115,8 @@ but can also be spells that influence movement of enemies (Strings).
 
 
 
-###The MIT License (MIT)
-####Copyright (c) 2022 Gerrit15
+### The MIT License (MIT)
+#### Copyright (c) 2022 Gerrit15
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
