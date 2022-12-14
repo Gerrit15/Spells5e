@@ -1,0 +1,48 @@
+{
+  "title": "Frost Fingers",
+  "source": "Icewind Dale - Rime of the Frostmaiden",
+  "lv": 1,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    15,
+    "Cone"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking 2d8 cold damage on a failed save, or half as much damage on a successful one.\nThe cold freezes nonmagical liquids in the area that aren't being worn or carried.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+  "spell_lists": [
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Constitution"
+  ],
+  "damage": [
+    2,
+    8,
+    0,
+    [
+      "Cold"
+    ]
+  ],
+  "tags": [
+    "Utility",
+    "Attack"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Entangle",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "conjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    90,
+    20,
+    "Square"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain.\nA creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.\nWhen the spell ends, the conjured plants wilt away.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid",
+    "Ranger"
+  ],
+  "proc": [
+    "Save",
+    "Strength"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Control"
+  ]
+}

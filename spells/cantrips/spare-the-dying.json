@@ -1,0 +1,48 @@
+{
+  "title": "Spare the Dying",
+  "source": "Player's Handbook",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Cleric"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+ "tags": [
+        "Healing"
+    ]
+}

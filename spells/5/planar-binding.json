@@ -1,0 +1,52 @@
+{
+  "title": "Planar Binding",
+  "source": "Player's Handbook",
+  "lv": 5,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "hour",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": true,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    24,
+    "hours",
+    false
+  ],
+  "text": "With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service. This spell requires a jewel worth at least 1,000 gp, which the spell consumes. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted Magic Circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell’s duration is extended to match the duration of this spell.\nA bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of a higher level, the duration increases to 10 days with a 6th-level slot, 30 days with a 7th-level slot, 180 days with an 8th-level slot, or 1 year and 1 day with a 9th-level spell slot.",
+  "spell_lists": [
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Charisma"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility",
+    "Debuff"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fizban's Platinum Shield",
+  "source": "Fizban's Treasury of Dragons",
+  "lv": 6,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:\nCover. The creature has half cover.\nDamage Resistance. The creature has resistance to acid, cold, fire, lightning, and poison damage.\nEvasion. If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.\nAs a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      "acid", 
+      "cold", 
+      "fire", 
+      "lightning", 
+      "poison"
+    ]
+  ],
+  "tags": [
+    "Buff",
+    "Utility"
+  ]
+}

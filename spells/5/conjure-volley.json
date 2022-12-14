@@ -1,0 +1,49 @@
+{
+  "title": "Conjure Volley",
+  "source": "Player's Handbook",
+  "lv": 5,
+  "school": "conjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    150,
+    40,
+    "Cylinder"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius, 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Ranger"
+  ],
+  "proc": [
+    "Save",
+    "Dexterity"
+  ],
+  "damage": [
+    8,
+    8,
+    0,
+    [
+      "Piercing",
+      "Bludgeoning"
+    ]
+  ],
+  "tags": [
+    "Attack",
+    "Control"
+  ]
+}

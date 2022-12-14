@@ -1,0 +1,47 @@
+{
+  "title": "Druidcraft",
+  "source": "Player's Handbook",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    30,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "Whispering to the spirits of nature, you create one of the following effects within range:\nYou create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round\nYou instantly make a flower blossom, a seed pod open, or a leaf bud bloom\nYou create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube\nYou instantly light or snuff out a candle, a torch, or a small campfire",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+ "tags": [
+        "Utility"
+    ]
+}

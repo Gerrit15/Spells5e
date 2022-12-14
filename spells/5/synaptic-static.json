@@ -1,0 +1,51 @@
+{
+  "title": "Synaptic Static",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 5,
+  "school": "enchantment",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    120,
+    20,
+    "Sphere"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can’t be affected by this spell. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful one.\nAfter a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Intelligence"
+  ],
+  "damage": [
+    8,
+    6,
+    0,
+    [
+      "Psychic"
+    ]
+  ],
+  "tags": [
+    "Attack",
+    "Debuff"
+  ]
+}

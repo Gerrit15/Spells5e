@@ -1,0 +1,51 @@
+{
+  "title": "Darkvision",
+  "source": "Player's Handbook",
+  "lv": 2,
+  "school": "transmutation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    8,
+    "hours",
+    false
+  ],
+  "text": "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff"
+  ]
+}

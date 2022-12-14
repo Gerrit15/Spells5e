@@ -1,0 +1,51 @@
+{
+  "title": "Earthbind",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 2,
+  "school": "transmutation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    300,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell’s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Strength"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Control",
+    "Utility"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Continual Flame",
+  "source": "Player's Handbook",
+  "lv": 2,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": true,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Error",
+    false
+  ],
+  "text": "This spell requires ruby dust worth 50 gp, which the spell consumes. A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility"
+  ]
+}

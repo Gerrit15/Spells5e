@@ -1,0 +1,49 @@
+{
+  "title": "False Life",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "necromancy",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "hour",
+    false
+  ],
+  "text": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.",
+  "spell_lists": [
+    "Artificer",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    1,
+    4,
+    4,
+    [
+      "Temporary HP"
+    ]
+  ],
+  "tags": [
+    "Healing"
+  ]
+}

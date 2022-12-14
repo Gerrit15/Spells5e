@@ -1,0 +1,47 @@
+{
+  "title": "Jim's Glowing Coin",
+  "source": "Acquisitions Inc.",
+  "lv": 2,
+  "school": "enchantment",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      false,
+      true,
+      true
+    ]
+  ],
+  "component_cost": true,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    false
+  ],
+  "text": "This spell requires 2 gold coins, which is consumed as tax for using the spell. When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a light spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom (Perception) checks and initiative rolls.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Wisdom"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Gift of Alacrity",
+  "source": "Explorer's Guide to Wildemount",
+  "lv": 1,
+  "school": "divination",
+  "ritual": true,
+  "casting_time": [
+    1,
+    "minute",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    8,
+    "hours",
+    false
+  ],
+  "text": "You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff"
+  ]
+}

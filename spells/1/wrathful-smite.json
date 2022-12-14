@@ -1,0 +1,49 @@
+{
+  "title": "Wrathful Smite",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "The next time you hit with a melee weapon attack during this spell’s duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Paladin"
+  ],
+  "proc": [
+    "Melee Attack",
+    "Wisdom"
+  ],
+  "damage": [
+    1,
+    6,
+    0,
+    [
+      "Psychic"
+    ]
+  ],
+  "tags": [
+    "Buff",
+    "Attack",
+    "Debuff"
+  ]
+}

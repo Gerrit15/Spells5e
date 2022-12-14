@@ -1,0 +1,49 @@
+{
+  "title": "Dispel Evil and Good",
+  "source": "Player's Handbook",
+  "lv": 5,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Cleric",
+    "Paladin"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff",
+    "Utility"
+  ]
+}

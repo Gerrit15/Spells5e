@@ -1,0 +1,48 @@
+{
+  "title": "Antilife Shell",
+  "source": "Player's Handbook",
+  "lv": 5,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    10,
+    "radius"
+  ],
+  "duration": [
+    1,
+    "hour",
+    true
+  ],
+  "text": "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and pushing out creatures other than undead and constructs.\nThe barrier lasts for the duration. The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.\nIf you move so that an affected creature is forced to pass through the barrier, the spell ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility",
+    "Control"
+  ]
+}

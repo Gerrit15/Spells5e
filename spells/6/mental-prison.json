@@ -1,0 +1,51 @@
+{
+  "title": "Mental Prison",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 6,
+  "school": "illusion",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      false,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target’s space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can’t see or hear anything beyond it and is restrained for the spell’s duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    15,
+    10,
+    0,
+    [
+      "Psychic"
+    ]
+  ],
+  "tags": [
+    "Attack",
+    "Utility",
+    "Debuff"
+  ]
+}

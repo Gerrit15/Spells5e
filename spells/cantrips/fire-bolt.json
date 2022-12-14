@@ -1,0 +1,49 @@
+{
+  "title": "Fire Bolt",
+  "source": "Player's Handbook",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    120,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.",
+  "higher_lv": "At Higher Levels. This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+  "spell_lists": [
+    "Artificer",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Ranged Spell Attack",
+    "none"
+  ],
+  "damage": [
+    1,
+    10,
+    0,
+    [
+      "Fire"
+    ]
+  ],
+ "tags": [
+        "Attack"
+    ]
+}

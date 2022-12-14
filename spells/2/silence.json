@@ -1,0 +1,50 @@
+{
+  "title": "Silence",
+  "source": "Player's Handbook",
+  "lv": 2,
+  "school": "illusion",
+  "ritual": true,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    120,
+    20,
+    "Sphere"
+  ],
+  "duration": [
+    10,
+    "minutes",
+    true
+  ],
+  "text": "For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Bard",
+    "Cleric",
+    "Ranger"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Control",
+    "Utility"
+  ]
+}

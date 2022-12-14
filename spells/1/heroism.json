@@ -1,0 +1,49 @@
+{
+  "title": "Heroism",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "enchantment",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+  "spell_lists": [
+    "Bard",
+    "Paladin"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      "Temporary HP"
+    ]
+  ],
+  "tags": [
+    "Buff",
+    "Healing"
+  ]
+}

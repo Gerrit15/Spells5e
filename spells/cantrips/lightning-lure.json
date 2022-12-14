@@ -1,0 +1,51 @@
+{
+  "title": "Lightning Lure",
+  "source": "Tasha's Cauldron of Everything",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    15,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.",
+  "higher_lv": "At Higher Levels. This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+  "spell_lists": [
+    "Artificer",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "Strength"
+  ],
+  "damage": [
+    1,
+    8,
+    0,
+    [
+      "Lightning"
+    ]
+  ],
+ "tags": [
+        "Attack",
+        "Control"
+    ]
+}

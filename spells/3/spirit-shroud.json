@@ -1,0 +1,53 @@
+{
+  "title": "Spirit Shroud",
+  "source": "Tasha's Cauldron of Everything",
+  "lv": 3,
+  "school": "necromancy",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "You call forth spirits of the dead, which flit around you for the spell’s duration. The spirits are intangible and invulnerable.\nUntil the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can’t regain hit points until the start of your next turn.\nIn addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 3rd.",
+  "spell_lists": [
+    "Cleric",
+    "Paladin",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    1,
+    8,
+    0,
+    [
+      "Radiant",
+      "Necrotic",
+      "Cold"
+    ]
+  ],
+  "tags": [
+    "Attack",
+    "Debuff"
+  ]
+}

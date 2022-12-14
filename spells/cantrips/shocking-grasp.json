@@ -1,0 +1,50 @@
+{
+  "title": "Shocking Grasp",
+  "source": "Player's Handbook",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can’t take reactions until the start of its next turn.",
+  "higher_lv": "At Higher Levels. The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+  "spell_lists": [
+    "Artificer",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Melee Spell Attack",
+    "none"
+  ],
+  "damage": [
+    1,
+    8,
+    0,
+    [
+      "Lightning"
+    ]
+  ],
+ "tags": [
+        "Attack",
+        "Debuff"
+    ]
+}

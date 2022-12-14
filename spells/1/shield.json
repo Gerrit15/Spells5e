@@ -1,0 +1,48 @@
+{
+  "title": "Shield",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "reaction",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "round",
+    false
+  ],
+  "text": "This spell activates when you are hit by an attack or targeted by the magic missile spell. An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff"
+  ]
+}

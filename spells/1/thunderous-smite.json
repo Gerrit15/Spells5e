@@ -1,0 +1,49 @@
+{
+  "title": "Thunderous Smite",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Paladin"
+  ],
+  "proc": [
+    "Melee Attack",
+    "Strength"
+  ],
+  "damage": [
+    2,
+    6,
+    0,
+    [
+      "Thunder"
+    ]
+  ],
+  "tags": [
+    "Buff",
+    "Attack",
+    "Debuff"
+  ]
+}

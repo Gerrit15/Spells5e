@@ -1,0 +1,51 @@
+{
+  "title": "Stoneskin",
+  "source": "Player's Handbook",
+  "lv": 4,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": true,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "hour",
+    true
+  ],
+  "text": "This spell requires diamond dust worth 100 gp, which the spell consumes. This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility"
+  ]
+}

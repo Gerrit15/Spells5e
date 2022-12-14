@@ -1,0 +1,50 @@
+{
+  "title": "Faerie Fire",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    20,
+    "Cube"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice).\nAny creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.\nAny attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being invisible.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Bard",
+    "Druid"
+  ],
+  "proc": [
+    "Save",
+    "Dexterity"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility",
+    "Control"
+  ]
+}

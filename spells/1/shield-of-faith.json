@@ -1,0 +1,48 @@
+{
+  "title": "Shield of Faith",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    10,
+    "minutes",
+    true
+  ],
+  "text": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Cleric",
+    "Paladin"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff"
+  ]
+}

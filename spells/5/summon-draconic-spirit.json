@@ -1,0 +1,50 @@
+{
+  "title": "Summon Draconic Spirit",
+  "source": "Fizban's Treasury of Dragons",
+  "lv": 5,
+  "school": "Conjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "Action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "hour",
+    true
+  ],
+  "text": "You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: chromatic, gem, or metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.\nDraconic Spirit: large dragon, neutral\nArmor Class 14 + the level of the spell (natural armor)\nHit Points 50 + 10 for each spell level above 5th (the dragon has a number of hit dice [d10s] equal to the level of the spell)\nSpeed 30 ft, fly 60 ft, swim 30 ft\nStr: 19(+4), Dex: 14(+2), Conn: 17(+3), Int: 10(+0), Wis: 14(+2), Char: 14(+2)\nDamage Resistances(Chromatic and Metallic Only) acid, cold, fire, lightning, poison\nDamage Resistances(Gem Only) force, necrotic, psychic, radiant, thunder\nCondition Immunities: charmed, frightened, poisoned\nSenses: blindsight 30 ft, darkvision 60 ft, passive Perception 12\nLanguages: Draconic, understands the languages you speak\nChallange: -, Proficiency Bonus: equal to your bonus\nShared Resistances. When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends\nMultiattack. The dragon makes a number of Rend attacks equal to half the spell’s level (rounded down), and it uses Breath Weapon\nRend. Melee Weapon Attack: your spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 plus 4 + the spell's level piercing damage\nBreath Weapon. The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC. A creature takes 2d6 damage of a type this dragon has resistance to (your choice) on a failed save, or half as much damage on a successful one",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell’s level appears in the stat block.",
+  "spell_lists": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility",
+    "Summon"
+  ]
+}

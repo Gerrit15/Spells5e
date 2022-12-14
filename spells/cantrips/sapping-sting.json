@@ -1,0 +1,48 @@
+{
+  "title": "Sapping Sting",
+  "source": "Explorer's Guide to Wildemount",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    30,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take 1d4 necrotic damage and fall prone.",
+  "higher_lv": "At Higher Levels. This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+  "spell_lists": [
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    1,
+    4,
+    0,
+    [
+      "necrotic"
+    ]
+  ],
+ "tags": [
+        "Attack",
+        "Debuff"
+    ]
+}
