@@ -8,7 +8,9 @@ spells. That being said, I scraped *most* of the data, meaning that some parts o
 it I had to do by hand, so in particular `proc`, `damage`, and `tags` are highly 
 succeptable to errors in formatting. I know for a fact that capitalization is not
 consistant, so I highly reccomend something like `.toLower()` to make sure that searches
-are proper. 
+are proper. As for pull requests and all that: I'm fairly new to github. If you would like
+to contribute, please feel free with the understanding that you'll have to bear with me as I 
+navigate github. 
 
 ## JSON Formatting
 ```json
