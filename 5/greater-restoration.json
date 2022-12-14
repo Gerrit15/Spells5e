@@ -1,0 +1,52 @@
+{
+  "title": "Greater Restoration",
+  "source": "Player's Handbook",
+  "lv": 5,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": true,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You imbue a creature you touch with positive energy to undo a debilitating effect. This spell requires diamond dust worth at least 100 gp, which the spell consumes. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target:\nOne effect that charmed or petrified the target\nOne curse, including the target’s attunement to a cursed magic item\nAny reduction to one of the target’s ability scores\nOne effect reducing the target’s hit point maximum",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Artificer",
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Ranger"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Healing",
+    "Utility"
+  ]
+}

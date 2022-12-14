@@ -1,0 +1,50 @@
+{
+  "title": "Borrowed Knowledge",
+  "source": "Strixhaven: A Curriculum of Chaos",
+  "lv": 2,
+  "school": "Divination",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "hour",
+    false
+  ],
+  "text": "You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Bard",
+    "Cleric",
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility"
+  ]
+}

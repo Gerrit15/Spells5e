@@ -1,0 +1,47 @@
+{
+  "title": "Spiritual Weapon",
+  "source": "Player's Handbook",
+  "lv": 2,
+  "school": "evocation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    false
+  ],
+  "text": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again.\nWhen you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.\nThe weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.",
+  "spell_lists": [
+    "Cleric"
+  ],
+  "proc": [
+    "Melee Spell Attack",
+    "none"
+  ],
+  "damage": [
+    1,
+    8,
+    0,
+    [
+      "Force"
+    ]
+  ],
+  "tags": [
+    "Attack"
+  ]
+}

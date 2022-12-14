@@ -1,0 +1,50 @@
+{
+  "title": "Feign Death",
+  "source": "Player's Handbook",
+  "lv": 3,
+  "school": "necromancy",
+  "ritual": true,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "hour",
+    false
+  ],
+  "text": "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.\nFor the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Utility"
+  ]
+}

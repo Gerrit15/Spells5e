@@ -1,0 +1,49 @@
+{
+  "title": "Death Ward",
+  "source": "Player's Handbook",
+  "lv": 4,
+  "school": "abjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    8,
+    "hours",
+    false
+  ],
+  "text": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Cleric",
+    "Paladin"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Healing",
+    "Utility"
+  ]
+}

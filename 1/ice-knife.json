@@ -1,0 +1,50 @@
+{
+  "title": "Ice Knife",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 1,
+  "school": "conjuration",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      false,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    5,
+    "Sphere"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.",
+  "higher_lv": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.",
+  "spell_lists": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Instant",
+    "Dexterity"
+  ],
+  "damage": [
+    1,
+    10,
+    0,
+    [
+      "Piercing",
+      "Cold"
+    ]
+  ],
+  "tags": [
+    "Attack"
+  ]
+}

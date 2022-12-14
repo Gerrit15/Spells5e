@@ -1,0 +1,48 @@
+{
+  "title": "Guardian of Nature",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 4,
+  "school": "transmutation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "bonus action",
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    0,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.\nPrimal Beast. Bestial fur covers your body, your facial features become feral, and you gain the following benefits:\nYour walking speed increases by 10 feet, you gain darkvision with a range of 120 feet, you make Strength-based attack rolls with advantage, your melee weapon attacks deal an extra 1d6 force damage on a hit\nGreat Tree. Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:\nYou gain 10 temporary hit points, you make Constitution saving throws with advantage, you make Dexterity and Wisdom-based attack rolls with advantage, while you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid",
+    "Ranger"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Buff"
+  ]
+}

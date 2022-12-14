@@ -1,0 +1,49 @@
+{
+  "title": "Ray of Enfeeblement",
+  "source": "Player's Handbook",
+  "lv": 2,
+  "school": "necromancy",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    60,
+    0,
+    "none"
+  ],
+  "duration": [
+    1,
+    "minute",
+    true
+  ],
+  "text": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.\nAt the end of each of the target’s turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Warlock",
+    "Wizard"
+  ],
+  "proc": [
+    "Ranged Spell Attack",
+    "Constitution"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+  "tags": [
+    "Debuff",
+    "Control"
+  ]
+}

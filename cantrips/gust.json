@@ -1,0 +1,50 @@
+{
+  "title": "Gust",
+  "source": "Xanathar's Guide to Everything",
+  "lv": 0,
+  "school": "cantrip",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      false
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    30,
+    0,
+    "none"
+  ],
+  "duration": [
+    0,
+    "Instantaneous",
+    false
+  ],
+  "text": "You seize the air and compel it to create one of the following effects at a point you can see within range:\nOne Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you\nYou create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn’t pushed with enough force to cause damage\nYou create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "proc": [
+    "Save",
+    "Strength"
+  ],
+  "damage": [
+    0,
+    0,
+    0,
+    [
+      ""
+    ]
+  ],
+ "tags": [
+        "Utility",
+        "Control"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Goodberry",
+  "source": "Player's Handbook",
+  "lv": 1,
+  "school": "transmutation",
+  "ritual": false,
+  "casting_time": [
+    1,
+    "action",
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "component_cost": false,
+  "range": [
+    1,
+    0,
+    "none"
+  ],
+  "duration": [
+    24,
+    "Hours",
+    false
+  ],
+  "text": "Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.\nThe berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.",
+  "higher_lv": "No Higher Levels",
+  "spell_lists": [
+    "Druid",
+    "Ranger"
+  ],
+  "proc": [
+    "Instant",
+    "none"
+  ],
+  "damage": [
+    0,
+    0,
+    10,
+    [
+      "Healing"
+    ]
+  ],
+  "tags": [
+    "Healing",
+    "Utility"
+  ]
+}
