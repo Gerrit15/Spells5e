@@ -114,6 +114,13 @@ utility is spells that can be used as a exploration/role playing tool (use loose
 but can also be spells that influence movement of enemies (Strings).
 
 
+##### What's next?
+I'm going to embark on creating a tui for these spells in rust soon, but first
+I will be going into a data analytics program by the name of PowerBI to see 
+what I can see. What does that mean for this project? That means that I will be 
+able to see if certain things are mispelled, and be able to provide lists of all 
+the tags used
+
 
 ### The MIT License (MIT)
 #### Copyright (c) 2022 Gerrit15
