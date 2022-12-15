@@ -40,9 +40,11 @@
     8,
     0,
     [
-      "Necrotic",
-      "Control",
-      "Debuff"
+      "Necrotic"
     ]
+  ],
+  "tags": [
+    "Attack",
+    "Debuff"
   ]
 }
